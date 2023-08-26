@@ -1,0 +1,18 @@
+.select {
+  background: #fff;
+  border-radius: 0.25rem;
+  height: 40px;
+  font-family: inherit;
+  font-weight: 700;
+  letter-spacing: 0.07rem;
+}
+
+.select option {
+  font-family: inherit;
+  letter-spacing: 0.07rem;
+}
+
+.select option:disabled {
+  font-family: inherit;
+  letter-spacing: 0.07rem;
+}

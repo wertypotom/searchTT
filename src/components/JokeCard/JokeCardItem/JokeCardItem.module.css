@@ -1,0 +1,34 @@
+.jokes-container {
+  flex-grow: 1;
+  width: 430px;
+  min-height: 150px;
+  box-shadow: 0 0 15px rgba(118, 118, 118, 0.3);
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  letter-spacing: 0.08rem;
+  line-height: 1.5rem;
+  transition: transform 0.5s;
+}
+
+.jokes-container:hover {
+  transform: scale(1.05);
+}
+
+.jokes-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.jokes-data {
+  color: #767676;
+  font-weight: lighter;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jokes-data_id:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
